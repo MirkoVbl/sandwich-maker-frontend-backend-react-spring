@@ -3,7 +3,7 @@ import {Sandwich} from "../model/Sandwich";
 
 type SandwichDetailsProps = {
     sandwich: Sandwich;
-    deleteSandwich: (id: string) => void; // Type ist: Eine Methode, die einen String als Parameter hat und void als return
+    deleteSandwich: (id: string) => void;
 }
 
 export default function SandwichDetails(props: SandwichDetailsProps) {
@@ -17,6 +17,7 @@ export default function SandwichDetails(props: SandwichDetailsProps) {
             <p className="left-side">Anzahl von Bulleten: </p><span>{props.sandwich.numberOfPatties} </span>
             <p className="left-side">Brot gegrillt: </p><span>{String(props.sandwich.grilled)} </span>
             <p className="left-side">Extrawünsche: </p><span>{props.sandwich.extraWishes} </span>
+
         </div>
     )
 }

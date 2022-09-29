@@ -1,0 +1,22 @@
+input {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 30px;
+}
+
+form {
+    border-color: #ffb029;
+    border-style: ridge ;
+    color: #61dafb;
+}
